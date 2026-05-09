@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-brand-ink antialiased;
+  background-image: radial-gradient(circle at top, rgba(255, 213, 74, 0.22), transparent 22%);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 138, 0, 0.45) transparent;
+}
+
+::selection {
+  background: rgba(255, 138, 0, 0.16);
+}
+
+.text-gradient {
+  background: linear-gradient(120deg, #ff8a00, #ffb347 45%, #111827 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.glass-panel {
+  @apply border border-white/60 bg-white/80 backdrop-blur-xl;
+}
+
+.soft-card {
+  @apply rounded-[28px] border border-slate-200/70 bg-white shadow-soft;
+}
+
+.glow-border {
+  box-shadow:
+    0 0 0 1px rgba(255, 138, 0, 0.14),
+    0 28px 80px rgba(255, 138, 0, 0.16);
+}
+
+.hero-grid {
+  background-size: auto, auto, 48px 48px, 48px 48px;
+}
+
+.mask-radial {
+  mask-image: radial-gradient(circle at center, black 48%, transparent 95%);
+}
