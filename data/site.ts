@@ -206,10 +206,10 @@ export const footerLinks = {
   quickLinks: navigation.slice(0, 6),
   programs: programs.map((program) => ({ label: program.title, href: "/programs" })),
   social: [
-    { label: "Instagram", href: "#" },
+    { label: "Instagram", href: "https://www.instagram.com/haibuddyofficial" },
     { label: "LinkedIn", href: "#" },
     { label: "YouTube", href: "#" },
-    { label: "WhatsApp", href: "#" },
+    { label: "WhatsApp", href: "https://wa.me/9391682898" },
   ],
 };
 
