@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils";
 export function Navbar() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
-  const whatsappHref = "https://wa.me/919876543210";
+  const whatsappHref = "https://wa.me/9391682898";
 
   return (
     <>

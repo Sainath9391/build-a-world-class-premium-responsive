@@ -29,7 +29,7 @@ const particles = Array.from({ length: 16 }).map((_, index) => ({
 }));
 
 export function Homepage() {
-  const whatsappHref = "https://wa.me/919876543210";
+  const whatsappHref = "https://wa.me/9391682898";
 
   return (
     <>
@@ -219,7 +219,7 @@ export function Homepage() {
 
 function HeroSection() {
   const orbitRadius = 182;
-  const whatsappHref = "https://wa.me/919876543210";
+  const whatsappHref = "https://wa.me/9391682898";
 
   return (
     <section className="relative overflow-hidden">
