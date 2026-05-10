@@ -17,11 +17,11 @@ export function Footer() {
             <div className="mt-6 flex flex-col gap-3 text-sm text-brand-slate">
               <span className="inline-flex items-center gap-2">
                 <Mail className="h-4 w-4 text-brand-orange" />
-                hello@haibuddy.ai
+                haibuddyofficial@gmail.com
               </span>
               <span className="inline-flex items-center gap-2">
                 <Phone className="h-4 w-4 text-brand-orange" />
-                +91 98765 43210
+                +91 93916 82898
               </span>
             </div>
           </div>
