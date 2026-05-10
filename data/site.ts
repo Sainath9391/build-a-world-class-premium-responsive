@@ -245,9 +245,9 @@ export const comparePlans = [
 ];
 
 export const contactCards = [
-  { title: "Email", value: "hello@haibuddy.ai" },
-  { title: "Phone", value: "+91 98765 43210" },
-  { title: "WhatsApp", value: "+91 98765 43210" },
+  { title: "Email", value: "haibuddyofficial@gmail.com" },
+  { title: "Phone", value: "+91 93916 82898" },
+  { title: "WhatsApp", value: "+91 93916 82898" },
   { title: "HQ", value: "Hyderabad, India" },
 ];
 
